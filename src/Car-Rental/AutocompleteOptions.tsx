@@ -1,0 +1,51 @@
+import React from 'react'
+
+export const topFilms = [
+  { title: 'Aqua', year: 1994 },
+  { title: 'Aurora', year: 1972 },
+  { title: 'Bailey-Brum', year: 1974 },
+  { title: 'Bailey-Brum', year: 2008 },
+  { title: 'Blue Steel (great for a blue car)', year: 1957 },
+  { title: "Canary (yellow car)", year: 1993 },
+  { title: 'Carlotte (like Charlotte)', year: 1994 },
+  {
+    title: 'Cherry Bomb',
+    year: 2003,
+  },
+  { title: 'Cooper Camaro', year: 1966 },
+  { title: 'Daffodil (great for a yellow car)', year: 1999 },
+  {
+    title: 'Donatella',
+    year: 2001,
+  },
+  {
+    title: 'Evie (great for a kid or a car!)',
+    year: 1980,
+  },
+  { title: 'Fast & the Furious', year: 1994 },
+  { title: 'Foxy Ford', year: 2010 },
+  {
+    title: 'General Garnet',
+    year: 2002,
+  },
+  { title: "Gucci", year: 1975 },
+  { title: 'Goodfellas', year: 1990 },
+  { title: 'The Matrix', year: 1999 },
+  { title: 'Seven Samurai', year: 1954 },
+  {
+    title: 'Lightning McQueen',
+    year: 1977,
+  },
+  { title: 'Lucille', year: 2002 },
+  { title: 'Mossy (or Mossie)', year: 1995 },
+  { title: 'Nevaeh (heaven spelled backwards)', year: 1991 },
+  { title: "Ona (means graceful in Hebrew)", year: 1946 },
+  { title: 'Penelope Pitstop', year: 1997 },
+  { title: 'Pokey (great for a small car)', year: 1995 },
+  { title: 'Rainbow Rider', year: 1994 },
+  { title: 'Spirited Away', year: 2001 },
+  { title: 'Saving Private Ryan', year: 1998 },
+  { title: 'Once Upon a Time in the West', year: 1968 },
+  { title: 'American History X', year: 1998 },
+  { title: 'Interstellar', year: 2014 },
+];

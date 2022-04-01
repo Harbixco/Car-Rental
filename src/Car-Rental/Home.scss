@@ -1,0 +1,50 @@
+@import './css/Component/buttons';
+
+.compete{
+    background-color:  #5ea4b1 !important;
+}
+.Browse-cars {
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+.card-bottom-button{
+    display: flex;
+    justify-content: space-between;
+}
+.hot-deal{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.second-buttton{
+    margin-left: 230px;
+}
+.first-card{
+      display: flex;
+    justify-content: space-between;
+}
+.benz{
+    width: 230px;
+}
+.hummer{
+    width: 320px;
+}
+.lexus{
+    width: 270px;
+}
+.first-card-text{
+    font-size: 15px;
+    font-weight: 600;
+    color: white
+}
+.cards{
+    background-color: #5ea4b1;
+}
+.Details{
+    color: white;
+    font-size: 50px;
+}
+.Hot-deal{
+       display: flex;
+    justify-content: space-around;
+}

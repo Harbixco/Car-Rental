@@ -1,0 +1,91 @@
+/* 
+- Typography
+*/
+
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+// body {
+//     font-family: 'Inter', sans-serif;
+//     font-size: 16px;
+//     color: #838EA4;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #0A2463;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 2.75rem;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-size: 1.65rem;
+}
+
+p {
+    font-size: 1.20rem;
+    margin-bottom: 1.25rem;
+}
+
+.small {
+    font-size: .95rem;
+}
+.sign{
+    margin-left: 45px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contactus{
+    font-size: 30px;
+   margin-left: 90px;
+   font-weight: 600;
+   color: white;
+}
+.frequent{
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.what{
+    font-size:20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.last{
+ margin-bottom: 10px;
+}
+.error-div{
+    background-color: #5ea4b1;
+}
+.error{
+    margin-top: 120px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+.sorry{
+     margin-top: 10px;
+     font-size: 20px;
+     font-weight: 600;
+     color: white;
+     margin-bottom: 120px;
+}

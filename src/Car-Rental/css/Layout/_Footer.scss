@@ -1,0 +1,39 @@
+$color: white;
+
+/* 
+- Footer
+*/
+.footer{
+    color: $color
+}
+
+.text{
+  color: $color;
+  text-decoration: none;
+
+      &:hover {
+          opacity: .4;
+          color: aliceblue;
+      }
+
+}
+.first-container{
+    margin-top: 20px
+}
+.home-outlined{
+    color: $color;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.contact{
+    display: flex;
+    justify-content: start;
+}
+.enter-phone{
+    font-size: 20px;
+    font-weight: 500;
+}
+img {
+    width: 70px
+}
