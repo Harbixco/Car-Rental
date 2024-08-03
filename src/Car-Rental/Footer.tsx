@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "../Car-Rental/css/Layout/_Footer.scss";
 import { HashLink as Link } from "react-router-hash-link";
@@ -13,42 +14,42 @@ export const Footer = () => {
           <div className="col-md-3 offset-md-2">
             <div className="footer first-container">
               {" "}
-              <img src={logo} className="image" />
+              <img src={logo} className="image" alt="image" />
             </div>
           </div>
           <div className="col-md-3">
-            <div className="footer first-container">PRODUCT</div>
+            <div className="footer first-container first-text  text">PRODUCT</div>
             <div>
               <Button>
-                <Link to="/#" className="text">
+                <Link to="/#" className="first-text  text">
                   Rent Car
                 </Link>
               </Button>
             </div>
             <div>
               <Button>
-                <Link to="/#" className="text">
+                <Link to="/#" className="first-text  text">
                   Hire a Driver
                 </Link>
               </Button>
             </div>
             <div>
               <Button>
-                <Link to="/#" className="text">
+                <Link to="/#" className="first-text  text">
                   Order Uber
                 </Link>
               </Button>
             </div>
             <div>
               <Button>
-                <Link to="/#" className="text">
+                <Link to="/#" className="first-text  text">
                   Home
                 </Link>
               </Button>
             </div>
           </div>
           <div className="col-md-3">
-            <div className="footer first-container">CONTACT US</div>
+            <div className="footer first-container first-text  text">CONTACT US</div>
             <div className="contact">
               <div>
                 <Icon
@@ -56,7 +57,7 @@ export const Footer = () => {
                   className="home-outlined"
                 />
               </div>
-              <div className="home-outlined">
+              <div className="home-outlined ">
                 28b, Lekki Phase 1, Lagos, Nigeria
               </div>
             </div>

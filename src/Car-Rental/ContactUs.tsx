@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import customercare from "./images/customercare.png";
 import "./css/base/_Typography.scss";
@@ -19,17 +20,15 @@ export const ContactUs = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-md-4 offset-md-2">
+          <div className="col-md-4">
             <img
               src={customercare}
-              style={{ width: "450px", marginTop: "10px" }}
+            className="slide6"
             />
           </div>
-          <div className="col-md-4  offset-md-1" style={{ marginTop: "10px" }}>
+          <div className="col-md-4  offset-md-3 " style={{ marginTop: "10px" }}>
             <Box
               sx={{
-                width: 300,
-                maxWidth: "100%",
               }}
             >
               <TextField

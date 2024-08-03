@@ -1,50 +1,80 @@
-@import './css/Component/buttons';
+@import "./css/Component/buttons";
 
-.compete{
-    background-color:  #5ea4b1 !important;
+.compete {
+  background-color: #5ea4b1 !important;
 }
 .Browse-cars {
-    margin-top: 50px;
-    color: white;
-    font-size: 40px;
+  margin-top: 50px;
+  color: white;
+  font-size: 40px;
 }
-.card-bottom-button{
-    display: flex;
-    justify-content: space-between;
+.btn-button {
+  background-color: black !important;
+  color: white !important;
+  border: 0;
+  text-decoration: none;
+  color: #838ea4;
+  font-size: 10px !important;
+  border-radius: 4px;
+  transition: all ease-in 0.5s;
 }
-.hot-deal{
-    margin-top: 3px;
-    margin-bottom: 3px;
+// .btn-button:hover {
+//   opacity: 0.4;
+// }
+.card-bottom-button {
+  display: flex;
+  justify-content: space-between;
 }
-.second-buttton{
-    margin-left: 230px;
+.hot-deal {
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
-.first-card{
-      display: flex;
-    justify-content: space-between;
+.second-buttton {
+  margin-left: 230px;
 }
-.benz{
-    width: 230px;
+.first-card {
+  display: flex;
+  justify-content: space-between;
 }
-.hummer{
-    width: 320px;
+.benz {
+  width: 230px;
 }
-.lexus{
-    width: 270px;
+.hummer {
+  width: 320px;
 }
-.first-card-text{
-    font-size: 15px;
-    font-weight: 600;
-    color: white
+.lexus {
+  width: 270px;
 }
-.cards{
-    background-color: #5ea4b1;
+.first-card-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
 }
-.Details{
-    color: white;
-    font-size: 50px;
+.cards {
+  background-color: #5ea4b1;
 }
-.Hot-deal{
-       display: flex;
-    justify-content: space-around;
+.Details {
+  color: white;
+  font-size: 50px;
+}
+.Hot-deal {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-button {
+    background-color: black !important;
+    color: white !important;
+    border: 0;
+    text-decoration: none;
+    color: #838ea4;
+    font-size: 7px !important;
+    border-radius: 4px;
+    transition: all ease-in 0.5s;
+    margin: 0px 10px 0px 0px !important;
+  }
+  .second-buttton {
+    margin-left: 180px;
+  }
 }
