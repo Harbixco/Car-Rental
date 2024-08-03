@@ -1,3 +1,41 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.slide6 {
+  margin-top: 20px;
+  height: 400px;
+  width: 700px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.first-text {
+  text-align: justify;
+  padding: 10px 20px;
+}
+.questions {
+  color: #5ea4b1;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .slide6 {
+    margin-top: 20px;
+    height: 300px;
+    width: 320px;
+    border-radius: 10px;
+  }
+  .first-text {
+    font-size: 10px;
+    text-align: justify;
+    padding: 10px 10px;
+  }
+  .carname{
+    margin: 0px 10px;
+}
+.questions {
+  color: #5ea4b1;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+}

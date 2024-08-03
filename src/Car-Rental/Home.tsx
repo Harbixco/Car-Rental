@@ -146,7 +146,7 @@ export const Home = () => {
                       <div className="first-card-text">Benz</div>
                       <div className="first-card-text">360 Rs</div>
                     </div>
-                    <div>
+                    <div className="carname">
                       <div className="first-card-text">$500</div>
                       <div className="first-card-text">/daily</div>
                     </div>
@@ -159,10 +159,10 @@ export const Home = () => {
               <CardActions className="cards">
                 <div className="card-bottom-button">
                   <div>
-                    <Button className="button">Details</Button>
+                    <Button className="btn-button">Details</Button>
                   </div>
                   <div className="second-buttton">
-                    <Button className="button">Rent now</Button>
+                    <Button className="btn-button">Rent now</Button>
                   </div>
                 </div>
               </CardActions>
@@ -194,10 +194,10 @@ export const Home = () => {
               <CardActions className="cards">
                 <div className="card-bottom-button">
                   <div>
-                    <Button className="button">Details</Button>
+                  <Button className="btn-button">Details</Button>
                   </div>
                   <div className="second-buttton">
-                    <Button className="button">Rent now</Button>
+                  <Button className="btn-button">Rent now</Button>
                   </div>
                 </div>
               </CardActions>
@@ -229,10 +229,10 @@ export const Home = () => {
               <CardActions className="cards">
                 <div className="card-bottom-button">
                   <div>
-                    <Button className="button">Details</Button>
+                  <Button className="btn-button">Details</Button>
                   </div>
                   <div className="second-buttton">
-                    <Button className="button">Rent now</Button>
+                  <Button className="btn-button">Rent now</Button>
                   </div>
                 </div>
               </CardActions>
