@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./Home.scss";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import CircularProgress from "@mui/material/CircularProgress";
 import SearchIcon from "@mui/icons-material/Search";
-import { topFilms } from "./AutocompleteOptions";
+import { topFilms } from "./AutocompleteOptions.tsx";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -14,9 +15,9 @@ import Typography from "@mui/material/Typography";
 import benz from "./images/benz.png";
 import hummer from "./images/hummer.png";
 import lexus from "./images/lexus.png";
-import { About } from "./About";
-import { ContactUs } from "./ContactUs";
-import { FAQs } from "./FAQs";
+import { About } from "./About.tsx";
+import { ContactUs } from "./ContactUs.tsx";
+import { FAQs } from "./FAQs.tsx";
 
 // AUTOCOMPLETE SEARCH SPACE
 interface Film {
@@ -152,7 +153,7 @@ export const Home = () => {
                   </div>
                 </Typography>
                 <Typography style={{ textAlign: "center" }}>
-                  <img src={benz} className="benz" />
+                  <img src={benz} className="benz" alt="image" />
                 </Typography>
               </CardContent>
               <CardActions className="cards">
@@ -187,7 +188,7 @@ export const Home = () => {
                   </div>
                 </Typography>
                 <Typography style={{ textAlign: "center" }}>
-                  <img src={lexus} className="lexus" />
+                  <img src={lexus} className="lexus" alt="image" />
                 </Typography>
               </CardContent>
               <CardActions className="cards">
@@ -222,7 +223,7 @@ export const Home = () => {
                   </div>
                 </Typography>
                 <Typography style={{ textAlign: "center" }}>
-                  <img src={hummer} className="hummer" />
+                  <img src={hummer} className="hummer" alt="image" />
                 </Typography>
               </CardContent>
               <CardActions className="cards">

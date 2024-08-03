@@ -62,7 +62,7 @@ const FormikContainer = () => {
                 Next
               </Button>
 
-       ]     </Form>
+          </Form>
           )}
         </Formik>
       </Box>

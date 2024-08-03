@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./IndexPage.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
@@ -14,7 +15,7 @@ export const IndexPage = () => {
               <Container>
                 <Navbar.Brand>
                   <Link to="/">
-                    <img src={logo} className="image" />
+                    <img src={logo} className="image"  alt="image" />
                   </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle
